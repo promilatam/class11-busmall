@@ -2,36 +2,45 @@
 <html>
   <head>
     <title>BusMall</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Righteous|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
-      <nav>
-        <span>
-          <a href="#">BusMall</a>
-        </span>
-      </nav>
+      
+      <section class="intro">
+        <h1>Bus Mall Survey Project!!</h1>
+        <h3>Welcome, Please click one of the product that you think of buying in near future!.</h3>
+      </section>
+     
     </header>
     <main>
-      <h1>Bus Mall Survey Project!!</h1>
 
-      <h3>Welcome, Please click one of the product that you think of buying in near future!.</h3>
+    <section id="all_pictures">
+       
+        <div>
+          <li><img id="left_pic" src="https://placehold.it/250x250/111" alt="left-image" ></li>
+          <p id="left_pic_h2">Default Left</p>
+        </div>
 
-      <section id="product-container">
-        <div id="leftProduct">
-          <img id="left_pic" src="">
-          <p id="leftProductname"></p>
+        <div>
+          <li><img id="middle_pic" src="https://placehold.it/250x250/111" alt="middle-image"></li>
+          <p id="middle_pic_h2">Default Middle</p>
         </div>
-        <div id="middleproduct">
-          <img id="middle_pic" src="">
-          <p id="middleProductname"></p>
+
+        <div>
+          <li><img id="right_pic" src="https://placehold.it/250x250/111" alt="right-image"></li>
+          <p id="right_pic_h2">Default Right</p>
         </div>
-        <div class="rightProduct">
-          <img id="right_pic" src="">
-          <p id="rightProductname"></p>
-        </div>
+    
+    </section>
+
+
+      <section id="chart">
+        <canvas id="myChart" width="25px" height='50px'></canvas>
       </section>
+
+
     </main>
 
     <footer>
